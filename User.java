@@ -1,0 +1,17 @@
+package model;
+
+public class User {
+    protected int id;
+    protected String username;
+    public String password;
+    protected String role;
+
+    public User(String username, String password, String role) {
+        this.username = username;
+        this.password = password;
+        this.role = role;
+    }
+
+    public String getUsername() { return username; }
+    public String getRole() { return role; }
+}
